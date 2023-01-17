@@ -21,7 +21,7 @@ width = os.get_terminal_size().columns
 parser = argparse.ArgumentParser()
 parser.add_argument('-i', '--info', help='Displays info for the given theme')
 args = parser.parse_args()
-
+# Information Option Code
 if args.info:
     theme = args.info.lower()
     f = open('themes.json')
@@ -35,18 +35,9 @@ if args.info:
         console.print(f"├─ Launcher: {data[theme]['launcher']}")
         console.print(f"├─ Bar: {data[theme]['bar']}")
         console.print(f"├─ Dock: {data[theme]['dock']}")
+        # Ignore this spaghetti lel
         console.print(f"└─ [{data[theme]['black']}]████[{data[theme]['red']}]████[{data[theme]['green']}]████[{data[theme]['yellow']}]████[{data[theme]['blue']}]████[{data[theme]['magenta']}]████[{data[theme]['cyan']}]████[{data[theme]['white']}]████")
         console.print(f"   [{data[theme]['black']}]████[{data[theme]['red']}]████[{data[theme]['green']}]████[{data[theme]['yellow']}]████[{data[theme]['blue']}]████[{data[theme]['magenta']}]████[{data[theme]['cyan']}]████[{data[theme]['white']}]████")
     except KeyError:
-        console.print("A fatal error occured!", style="bold red")
-
-
-
-
-
-
-
-    except KeyError as e:
-        print("[+] Theme not found, sorry!")
-    
+        console.print("A fatal error occured!", style="bold red")    
     
