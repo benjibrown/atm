@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/benjibrown/atm">
-    <img src="https://media.discordapp.net/attachments/1059398371107950702/1064617403960545332/clilogo2.png?width=615&height=615" alt="Logo" width="80" height="80">
+    <img src="https://media.discordapp.net/attachments/1059398371107950702/1064617403960545332/clilogo2.png?width=615&height=615" alt="Logo" width="160" height="160">
   </a>
 
   <h3 align="center">Archcraft Themem Manager CLI 🧨</h3>
@@ -19,4 +19,4 @@
   </p>
 </div>
 
-![preview](./resources/preview.png)
+![preview](./resources/preview.gif)
