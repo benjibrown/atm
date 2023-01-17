@@ -1,0 +1,21 @@
+{
+	"decay":{
+		"author":"Lamp",
+		"size":"2.01 MB",
+		"downloadlink":"https://cdn.discordapp.com/attachments/1059398371107950702/1061276182928166922/decay-ob-theme.tar.gz",
+    "name":"Decay",
+    "wm":"Openbox",
+    "bar":"Polybar",
+    "dock":"Plank",
+    "launcher":"Rofi",
+    "description":"A purple focused dark theme built for Archcraft.",
+		"white":"#e3e6eb",
+		"red":"#e5646a",
+		"black":"#1c1f29",
+		"green":"#94f7c5",
+		"yellow":"#f6d48f",
+		"magenta":"#cb8ff3",
+		"cyan":"#79c3ee",
+		"blue":"#75aaf0"
+	}
+}
