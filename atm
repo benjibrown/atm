@@ -5,6 +5,7 @@ import os
 import rich
 import argparse
 import subprocess
+import time
 import json
 import requests
 from rich import print
@@ -59,6 +60,7 @@ if args.download:
 
         console.print('[*] Applying theme...', style="bold")
         subprocess.run([f'nohup bash /home/{username}/.config/openbox-themes/themes/{theme}/apply.sh & >/dev/null 2>&1'], shell=True, stdout=DEVNULL, stderr=STDOUT)
+        time.sleep(5)
         subprocess.run([f'nohup bash /home/{username}/.config/openbox-themes/themes/{theme}/apply.sh & >/dev/null 2>&1'], shell=True, stdout=DEVNULL, stderr=STDOUT)
     
         console.print('[*] Cleaning up...', style="bold")
