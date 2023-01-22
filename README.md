@@ -21,4 +21,31 @@
 
 ![preview](./resources/preview.gif)
 
-# Installation
+## Installation
+
+The installation of the Archcraft Theme Manager CLI is relatively simple.
+
+However, some prerequisites are required.
+
+### Prerequisites
+
+- Python `3.x`
+- Pip Package Manager
+- Archcraft OS
+
+
+### Installing
+
+Now that you've got your prerequisites! 
+
+Go ahead and run the following commands to install `atm`.
+
+```bash
+git clone https://benjibrown/atm.git
+cd atm
+pip3 install -r requirements.txt
+./atm -h
+```
+
+And....there you have it, happy ricing!
+

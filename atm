@@ -19,13 +19,13 @@ f = open(f"/home/{username}/.config/openbox-themes/themes/.current")
 activetheme = f.read().strip('\n')
 f.close()
 width = os.get_terminal_size().columns
-# Argparse Options
+# Argparse 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-i', '--info', help='Displays info for the given theme')
 parser.add_argument('-d', '--download', help='Downloads and applies the chosen theme')
 args = parser.parse_args()
-# Information Option Code
+# Information 
 if args.info:
     theme = args.info.lower()
     f = open('themes.json')
