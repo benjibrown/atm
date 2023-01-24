@@ -60,3 +60,10 @@ It prints a range of information from the window managers to a short description
 
 ![info-option-example](https://github.com/benjibrown/atm/blob/main/resources/infooption.png?raw=true)
 
+### Option `-d`
+
+This option downloads and installs the supplied theme as long as it is found in the `themes.json` file. 
+
+Firstly, it downloads the theme and extracts it. From here it runs the `install.sh` script inside that archive (supplied by the theme creator). Finally, once the installation proccess has finished, theme is applied and the leftovers are cleaned up.
+
+![download-option-example](https://github.com/benjibrown/atm/blob/main/resources/downloadoption.png?raw=true)
