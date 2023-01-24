@@ -29,7 +29,7 @@ and can be achieved by your average linux user.
 However, some prerequisites are required.
 
 ### Prerequisites
-``
+
 - Python `3.x`
 - Pip Package Manager
 - Archcraft OS
@@ -56,3 +56,7 @@ The usage of this tool is fairly self-explantory however, I'll give you a quick 
 This option displays the information for a given theme if it is present in the `themes.json` file. If not, you will be alerted by the tool.
 
 It prints a range of information from the window managers to a short description to a basic color scheme.
+
+
+![info-option-example](https://github.com/benjibrown/atm/blob/main/resources/infooption.png?raw=true)
+
