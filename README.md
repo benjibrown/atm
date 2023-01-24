@@ -14,7 +14,7 @@
   <p align="center">
     The CLI Archcraft Theme Manager for people who love the comfort of a terminal!
     <br />
-    <a href="https://github.com/benjibrown/atm#Installation"><strong>Installation »</strong></a>
+    <a href="https://github.com/benjibrown/atm#Getting-Started"><strong>Getting Started »</strong></a>
     <br />
   </p>
 </div>
