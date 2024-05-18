@@ -14,7 +14,7 @@ from subprocess import DEVNULL, STDOUT, check_call
 
 console = Console()
 username = os.popen("whoami").read()[:-1]
-f = open(f"/home/{username}/.config/openbox-themes/themes/.current")
+f = open(f"/home/{username}/.config/openbox/themes/.current")
 activetheme = f.read().strip('\n')
 f.close()
 width = os.get_terminal_size().columns
